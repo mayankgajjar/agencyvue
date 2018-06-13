@@ -1,0 +1,130 @@
+/* Member Style Sheet use in Member Screen ONLY  */
+
+.member-screen #topnav .topbar-main { background-color: #ffffff; }
+.member-screen #topnav .member-search input { background: #b7b7b7 none repeat scroll 0 0; }
+.member-screen .chat-box {
+    display: inline-block;
+    float: right;
+}
+.member-screen .chat-box .title {
+    float: left;
+    font-size: 30px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+.member-screen .chat-box .fa.fa-comments-o {
+    font-size: 40px;
+    padding-left: 5px;
+	line-height:65px;
+}
+.member-screen .box-item {
+  font-weight: 700;
+  color: #804a6b;
+}
+/*ac style*/
+.custom-header{background: #804a6b !important;}    
+.custom-header #navigation li a{padding: 10px 25px; !important;}
+.custom-header #navigation li a img{display:block;margin:0 auto;}
+.custom-header #navigation li a span{display:block;text-align: center;padding-top: 4px;color:#fff;}
+.custom-header #navigation .navbar-right{padding: 15px 25px;}
+.custom-header #navigation .navbar-right li {display: block;float: none;text-align: right;}
+.custom-header #navigation .navbar-right li i{color:#fff;font-size:20px;padding-right: 15px;}
+.custom-header #navigation .navbar-right li span{font-size: 18px;color: #fff;}
+body.member-screen{background-color: #fff !important;}
+.custom-member-wrapper h4.page-title{margin-top: 15px;color:#530b37;font-size: 26px;}
+html{background: #fff;}
+.custom-member-wrapper p.text-muted.page-title-alt{color: #000000;font-size: 16px;}
+.mproduct-description .detail span{color: #530b37;font-size: 14px;font-weight: bold;display: inline-block;width: 25%;} 
+.mproduct-description .detail p{display: inline-block;color: #343434;font-size: 16px;}
+.social-media span{color:#804a6b;font-size: 18px;}
+.social-media{text-align:center;}
+.social-media .social-link li a{color:#804a6b;}
+.social-media .social-link li i{color:#804a6b;font-size: 30px;   }
+.social-media .social-link{padding-left: 0px;list-style: none;display: inline-block;}
+.social-media .social-link li{display: inline-block;}
+.social-media-details{border: 3px solid #804a6b;padding: 5px;}
+.social-media-details .table-responsive{max-height: 200px;}
+.social-media-details table th {text-align: center;color: #343434;font-size: 14px;font-weight: 400;}
+.social-media-details table td:first-child{text-align: center;width: 5%;}
+.social-media-details table td i{font-size: 22px;color:#804a6b;}
+.social-media-details table td:nth-child(2){text-align: center;width:20%;}
+.social-media-details table td p{ width: 400px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.product-heading{background: #804a6b;padding: 10px 0px;    margin-top: 50px;}
+.product-heading h2{color: #fff;display: inline-block;font-size: 24px;}
+.product-heading span{color: #fff;font-size: 12px;}
+.product-all-details ul{list-style: none;padding-left: 0;overflow: hidden;    margin-top: 50px;}
+.product-all-details ul li{width: 30%;border: 3px solid red;margin-right: 5%;border:3px solid #804a6b;margin-bottom: 50px;float: left;}
+.product-all-details ul li:nth-child(3),
+.product-all-details ul li:nth-child(6){margin-right: 0px !important;}
+.product-all-details ul .logo-image{display: block;text-align: center;margin: 20px 0px;}
+.product-all-details ul .descriptions{text-align: center;}
+.product-all-details ul .descriptions span{width:30%;display:inline-block;text-align: right !important;}
+.product-all-details ul .descriptions p {display: inline-block;color: #000;font-size: 16px;width: 60%;text-align: left;padding-left: 20px;}
+.product-all-details ul .btns{text-align: center;    margin: 20px;}
+.product-all-details ul .btns .activate{    background: #a4a4a4;color: #fff;padding: 10px;border-radius: 4px;}
+.product-all-details ul .btns .cancel{    background: #df4846;color: #fff;padding: 10px;border-radius: 4px;}
+footer{border-top: 2px solid #804a6b;}
+.social-media-details .table-responsive::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+    box-shadow: none !important;
+    height:8px;
+}
+.social-media-details .table-responsive::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #804a6b;
+    box-shadow: none !important;
+}
+.member-screen .card-box{background:#f6f8f8 none repeat scroll 0 0;border:none;}
+.member-screen .profile-detail.card-box h4 strong{font-weight:500;}
+.member-screen .profile-detail.card-box strong{color: #530b37;font-weight: bold;}
+.member-screen .breadcrumb a{color: #530b37;font-size: 22px;}
+.member-screen .breadcrumb li.active{color:#343434 !important;}
+.member-screen .card-box input.form-control,
+.member-screen .card-box select{background:#fff !important;border:1px solid #ddd !important;   color: #343434 !important;}
+.member-screen .bg-custom {
+    background-color: #804A6B !important;
+}
+.member-screen  label{color:#343434 !important;font-weight:300 !important;}
+.member-screen .btn.btn-default.waves-effect.waves-light {
+    background: #804a6b none repeat scroll 0 0 !important;
+    border-color: #804a6b !important;
+}
+.member-screen .profile-detail.card-box span.m-l-15 {
+    color: #343434 !important;
+    font-size: 14px !important;
+}
+.dropdown-menu {
+    background-color: #fff;
+    }
+    .dropdown-menu > li > a {
+    color: #343434;
+}
+.dropdown-menu > li > a:hover {
+    color: #804a6b !important;
+}
+.dropdown-menu > li > a .text-custom {
+    color: #804a6b !important;
+}
+.member-screen #topnav .member-search input:focus {
+    background: #b7b7b7 none repeat scroll 0 0 !important;
+}
+.navbar-c-items i.fa.fa-chevron-down{color: #804a6b;font-size: 12px !important;padding-left: 2px;}
+#frm_lead_edit h3{color: #804a6b !important;}
+label.btn.btn-default.choose-file-btn{    background: #804a6b !important;border-color: #804a6b !important; color:#fff !important;}
+.member-screen .btn-success {
+    background-color: #a4a4a4 !important;
+    border: 1px solid #a4a4a4!important;
+}
+.member-screen .btn-success .btn-label {
+    background: #8e8e8e;
+}
+.member-screen  .btn-danger {
+    background-color: #df4846 !important;
+    border: 1px solid #df4846 !important;
+}
+.member-screen label.error{color:#f05050 !important;}
+@media(max-width:767px){
+    .product-all-details ul li{width: 100%;margin-right: 0px;}
+}
